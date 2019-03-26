@@ -22,6 +22,8 @@ class Solution {
         return maxSubStrLength;
     }
     
+    // the code below is to ensure if character is in the middle 
+    // it will be removed a new continuous string is created
     private LinkedHashSet trimmedSet(LinkedHashSet s, char c){
         if(s==null)
             return new LinkedHashSet();
