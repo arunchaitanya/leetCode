@@ -41,7 +41,7 @@ public class MergeIntervals {
         int[][] intervals = new int[][]{{1,3},{2,6},{8,10},{15,18}};
         int[][] result = m.merge(intervals);
         for (int[] itr : result) {
-            System.out.println(itr[0] + "" + itr[1]);
+            System.out.println(itr[0] + " " + itr[1]);
         }
         
     }
