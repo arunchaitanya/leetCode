@@ -1,4 +1,4 @@
-package com.arung.leetCode.easy;
+package glc.arung.leetCode.easy;
 
 class ListNode{
     int val;
@@ -28,7 +28,7 @@ public class CyclicListNode {
             }
             
             slowItr = slowItr.next; 
-            if( slowItr == null || fastItr.next == next )
+            if( slowItr == null || fastItr.next == null )
                 break; // default value is already false;
             
             fastItr = fastItr.next.next; // fastItr is always twice the previous value    

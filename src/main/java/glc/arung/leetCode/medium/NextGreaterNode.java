@@ -1,6 +1,10 @@
-package com.arung.leetCode.medium;
+package glc.arung.leetCode.medium;
+
+import java.util.*;
+import glc.util.ListNode;
 
 public class NextGreaterNode{
+
 
     /**
  * Definition for singly-linked list.

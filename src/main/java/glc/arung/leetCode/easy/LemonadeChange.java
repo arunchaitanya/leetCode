@@ -1,6 +1,6 @@
-package com.arung.leetCode.easy;
+package glc.arung.leetCode.easy;
 
-public class LemonadaChange{
+public class LemonadeChange{
 
     public boolean lemonadeChange(int[] bills) {
         int count5 = 0;

@@ -1,4 +1,4 @@
-package com.arung.leetCode.medium;
+package glc.arung.leetCode.medium;
 
 public class CanJump {
     public boolean canJump(int[] nums) {

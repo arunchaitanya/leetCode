@@ -1,4 +1,4 @@
-package com.arung.leetCode.medium;
+package glc.arung.leetCode.medium;
 
 
 

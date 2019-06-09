@@ -1,4 +1,4 @@
-package com.arung.leetCode.easy;
+package glc.arung.leetCode.easy;
 import java.util.*;
 
 public class RotateString{
