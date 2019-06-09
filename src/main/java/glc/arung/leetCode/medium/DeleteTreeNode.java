@@ -36,9 +36,9 @@ public class DeleteTreeNode{
 
         if ( root.val <= nodeToAdd.val ) {
             if(root.right == null) {
-                root.right = node;
+                root.right = nodeToAdd;
             } else {
-                addNode(root.right, node);
+                addNode(root.right, nodeToAdd);
             }
         } else {
             if ( root.left == null ) {
